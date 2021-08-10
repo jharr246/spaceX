@@ -1,7 +1,7 @@
 
 ## GraphQL Practice - Space X
 
-This react app was created to practice making queries to a GraphQL API.
+This react app was created with material UI and used the [Space X GraphQL API](https://api.spacex.land/graphql/) to practice making queries to a GraphQL API.
 
 ## Available Scripts
 
