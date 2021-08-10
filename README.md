@@ -1,3 +1,4 @@
+
 ## GraphQL Practice - Space X
 
 This react app was created to practice making queries to a GraphQL API.
@@ -15,4 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Select a mission from the available options. The selected mission makes a query to display the mission details.
 
-![](2021-08-10-16-41-59.png)
+![spacexapp-1](https://user-images.githubusercontent.com/50892294/128932782-3677bbf8-c204-4c0b-b9b1-ec65400509e3.png)
