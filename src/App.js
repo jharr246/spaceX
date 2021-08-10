@@ -133,9 +133,11 @@ function App() {
           <Select
             className={classes.select}
             value={mission}
+            displayEmpty={"hello"}
             onChange={handleSelect}
             id="mission"
           >
+            <MenuItem value={""}>Select a Mission</MenuItem>
             {launches?.map((launch) => {
               return (
                 <MenuItem value={launch.mission_name}>
@@ -152,7 +154,7 @@ function App() {
             <CardMedia
               className={classes.media}
               image={missionDetails?.links?.flickr_images[0]}
-              title="Contemplative Reptile"
+              title="spacex"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
